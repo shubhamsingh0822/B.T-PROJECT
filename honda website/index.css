@@ -10,7 +10,7 @@
     position: sticky;
     top: 0;
     background-color: #ffffff;
-    z-index: 1;
+    z-index: 1000;
 }
 .logo{
     height: inherit;
@@ -469,10 +469,17 @@ display: none;
   background-color: #ffffff;
  display: flex;
  align-items: center;
- /* justify-content: center; */
+ justify-content: center;
+
+}
+.imgh{
+ display: none;
 }
 .turu{
+ 
   margin-left: 0px;
+  font-size: small;
+
 }
 .ouru{
   height: 50px;
@@ -580,6 +587,9 @@ display: none;
  align-items: center;
  /* justify-content: center; */
 }
+.imgh{
+  display: none;
+ }
 .turu{
   margin-left: 0px;
 }
